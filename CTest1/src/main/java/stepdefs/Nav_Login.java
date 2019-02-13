@@ -2,7 +2,6 @@ package stepdefs;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import cucumber.api.java.en.Given;
 
 public class Nav_Login {
@@ -16,9 +15,5 @@ public class Nav_Login {
 	driver.get("https://www.irctc.co.in");
 	}
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }

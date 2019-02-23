@@ -1,10 +1,14 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature");
 formatter.feature({
   "line": 1,
   "name": "Navigate to GoIbibo Login page and Login as a Customer",
   "description": "",
   "id": "navigate-to-goibibo-login-page-and-login-as-a-customer",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 342711,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 3,
@@ -43,33 +47,40 @@ formatter.match({
   "location": "Nav_login.Open_Web_Browser()"
 });
 formatter.result({
-  "duration": 326136025,
-  "error_message": "org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027ADMIN-PC\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.2\u0027\nDriver info: driver.version: FirefoxDriver\r\n\tat org.openqa.selenium.firefox.FirefoxBinary.\u003cinit\u003e(FirefoxBinary.java:115)\r\n\tat java.base/java.util.Optional.orElseGet(Optional.java:369)\r\n\tat org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:257)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:204)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:103)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:99)\r\n\tat stepdef.Nav_login.Open_Web_Browser(Nav_login.java:36)\r\n\tat ✽.Given Open Web Browser(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:5)\r\n",
-  "status": "failed"
+  "duration": 4765852883,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.Input_GoIbibo_Website_URL_and_Enter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8286829761,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_GoIbibo_Website_was_opened()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 25596336,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.click_on_Login()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1107632680,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Login_Screen_is_displayed()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 11407061031,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 132686,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 11,
@@ -118,45 +129,44 @@ formatter.match({
   "location": "Nav_login.user_is_on_Login_Screen()"
 });
 formatter.result({
-  "duration": 145882,
+  "duration": 74407,
   "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Username_Field_is_available()"
 });
 formatter.result({
-  "duration": 2433435,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepdef.Nav_login.verify_Username_Field_is_available(Nav_login.java:77)\r\n\tat ✽.Then Verify Username Field is available(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:14)\r\n",
-  "status": "failed"
+  "duration": 28555018,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Password_Field_is_available()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 27202132,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.user_enters_Username()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 67191620,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.user_enters_Password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1119417926,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.user_clicks_on_Signin()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79810735,
+  "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Signin_is_succesful()"
-});
-formatter.result({
-  "status": "skipped"
-});
 });

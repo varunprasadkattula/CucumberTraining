@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.junit.Assert;
 
@@ -25,7 +27,8 @@ public class Nav_login {
 
 @Given ("^Open Web Browser$")
 public static void Open_Web_Browser() {
-	System.setProperty("webdriver.chrome.driver","https://github.com/varunprasadkattula/CucumberTraining/blob/master/goibibo_Alpha/chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver","C://webdriver//chromedriver.exe");	
+	//driver = webdriver.Chrome();
 	DesiredCapabilities cap = new DesiredCapabilities();
 	ChromeOptions opt = new ChromeOptions();
 	opt.addArguments("incognito");

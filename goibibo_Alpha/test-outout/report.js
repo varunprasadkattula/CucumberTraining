@@ -43,8 +43,8 @@ formatter.match({
   "location": "Nav_login.Open_Web_Browser()"
 });
 formatter.result({
-  "duration": 399991643,
-  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\admin\\Documents\\GitHub\\CucumberTraining\\goibibo_Alpha\\https:\\github.com\\varunprasadkattula\\CucumberTraining\\blob\\master\\goibibo_Alpha\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:124)\r\n\tat stepdef.Nav_login.Open_Web_Browser(Nav_login.java:35)\r\n\tat ✽.Given Open Web Browser(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:5)\r\n",
+  "duration": 326136025,
+  "error_message": "org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027ADMIN-PC\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.2\u0027\nDriver info: driver.version: FirefoxDriver\r\n\tat org.openqa.selenium.firefox.FirefoxBinary.\u003cinit\u003e(FirefoxBinary.java:115)\r\n\tat java.base/java.util.Optional.orElseGet(Optional.java:369)\r\n\tat org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:257)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:204)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:103)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:99)\r\n\tat stepdef.Nav_login.Open_Web_Browser(Nav_login.java:36)\r\n\tat ✽.Given Open Web Browser(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:5)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -118,15 +118,15 @@ formatter.match({
   "location": "Nav_login.user_is_on_Login_Screen()"
 });
 formatter.result({
-  "duration": 189501,
+  "duration": 145882,
   "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Username_Field_is_available()"
 });
 formatter.result({
-  "duration": 3787815,
-  "error_message": "java.lang.NullPointerException\r\n\tat stepdef.Nav_login.verify_Username_Field_is_available(Nav_login.java:76)\r\n\tat ✽.Then Verify Username Field is available(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:14)\r\n",
+  "duration": 2433435,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepdef.Nav_login.verify_Username_Field_is_available(Nav_login.java:77)\r\n\tat ✽.Then Verify Username Field is available(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:14)\r\n",
   "status": "failed"
 });
 formatter.match({

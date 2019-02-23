@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/varun/git/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature");
 formatter.feature({
   "line": 1,
   "name": "Navigate to GoIbibo Login page and Login as a Customer",
@@ -43,36 +43,33 @@ formatter.match({
   "location": "Nav_login.Open_Web_Browser()"
 });
 formatter.result({
-  "duration": 4753097189,
-  "status": "passed"
+  "duration": 399991643,
+  "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\Users\\admin\\Documents\\GitHub\\CucumberTraining\\goibibo_Alpha\\https:\\github.com\\varunprasadkattula\\CucumberTraining\\blob\\master\\goibibo_Alpha\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:534)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:124)\r\n\tat stepdef.Nav_login.Open_Web_Browser(Nav_login.java:35)\r\n\tat ✽.Given Open Web Browser(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Nav_login.Input_GoIbibo_Website_URL_and_Enter()"
 });
 formatter.result({
-  "duration": 5061140835,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.verify_GoIbibo_Website_was_opened()"
 });
 formatter.result({
-  "duration": 18917788,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.click_on_Login()"
 });
 formatter.result({
-  "duration": 1372590104,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.verify_Login_Screen_is_displayed()"
 });
 formatter.result({
-  "duration": 679470440,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 11,
@@ -121,50 +118,45 @@ formatter.match({
   "location": "Nav_login.user_is_on_Login_Screen()"
 });
 formatter.result({
-  "duration": 227213,
+  "duration": 189501,
   "status": "passed"
 });
 formatter.match({
   "location": "Nav_login.verify_Username_Field_is_available()"
 });
 formatter.result({
-  "duration": 65741125,
-  "status": "passed"
+  "duration": 3787815,
+  "error_message": "java.lang.NullPointerException\r\n\tat stepdef.Nav_login.verify_Username_Field_is_available(Nav_login.java:76)\r\n\tat ✽.Then Verify Username Field is available(C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:14)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Nav_login.verify_Password_Field_is_available()"
 });
 formatter.result({
-  "duration": 60062345,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.user_enters_Username()"
 });
 formatter.result({
-  "duration": 117958971,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.user_enters_Password()"
 });
 formatter.result({
-  "duration": 1163979866,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.user_clicks_on_Signin()"
 });
 formatter.result({
-  "duration": 135056485,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Nav_login.verify_Signin_is_succesful()"
 });
 formatter.result({
-  "duration": 64182506,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//i[@class\u003d\u0027fl icon-user blue ico30 padL10 padR5\u0027]\"}\n  (Session info: chrome\u003d72.0.3626.109)\n  (Driver info: chromedriver\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.5.3\u0027, revision: \u0027a88d25fe6b\u0027, time: \u00272017-08-29T12:42:44.417Z\u0027\nSystem info: host: \u0027VARUNGEETHU\u0027, ip: \u0027192.168.0.114\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:58333}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, platformName\u003dXP, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir\u003dC:\\Users\\varun\\AppData\\Local\\Temp\\scoped_dir11920_17903}, takesHeapSnapshot\u003dtrue, unhandledPromptBehavior\u003dignore, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d72.0.3626.109, browserConnectionEnabled\u003dfalse, proxy\u003dProxy(), nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: a7aeeede6112e545f8e71899f57234fc\n*** Element info: {Using\u003dxpath, value\u003d//i[@class\u003d\u0027fl icon-user blue ico30 padL10 padR5\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)\r\n\tat stepdef.Nav_login.verify_Signin_is_succesful(Nav_login.java:108)\r\n\tat ✽.Then Verify Signin is succesful(C:/Users/varun/git/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:19)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 });

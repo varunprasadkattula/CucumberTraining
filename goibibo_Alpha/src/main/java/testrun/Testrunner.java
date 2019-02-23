@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:/Users/varun/git/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature", //the path of the feature files
+		features = "C:/Users/admin/Documents/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature", //the path of the feature files
 		glue={"stepdef"}, //the path of the step definition files
 		plugin= {"pretty","html:test-outout"}, //to generate different types of reporting
 		monochrome = true) //display the console output in a proper readable format

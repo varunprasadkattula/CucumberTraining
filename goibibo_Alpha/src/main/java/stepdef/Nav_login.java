@@ -25,7 +25,7 @@ public class Nav_login {
 
 @Given ("^Open Web Browser$")
 public static void Open_Web_Browser() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\varun\\Desktop\\Eclipse\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","https://github.com/varunprasadkattula/CucumberTraining/blob/master/goibibo_Alpha/chromedriver.exe");	
 	DesiredCapabilities cap = new DesiredCapabilities();
 	ChromeOptions opt = new ChromeOptions();
 	opt.addArguments("incognito");

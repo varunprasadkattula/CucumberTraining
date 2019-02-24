@@ -136,7 +136,7 @@ public void user_clicks_on_Signin() throws Throwable {
 		 * driver.findElement(By.xpath("(//div[@class='wrapper']//a)[1]")).click();
 		 * }catch (Exception e) { // TODO: handle exception
 		 * System.out.println("BANNER N/A");}
-		 */ waitexe("hold",2000);
+		 */ waitexe("hold",200);
 	 WebElement ele = driver.findElement(By.xpath("(//div[@id='hd_user_widdget']//i)[1]"));
 	 //wait.until(ExpectedConditions.visibilityOfElementLocated((By) ele)).click();
 	 Actions a = new Actions(driver);

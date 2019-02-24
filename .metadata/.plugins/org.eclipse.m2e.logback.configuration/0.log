@@ -1577,3 +1577,21 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2019-02-24 01:01:22,421 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin\Documents\GitHub\CucumberTraining\goibibo_Alpha\src\main\resources
 2019-02-24 01:01:22,423 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-02-24 01:01:22,423 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\admin\Documents\GitHub\CucumberTraining\goibibo_Alpha\src\test\resources
+2019-02-24 22:36:07,836 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-02-24 22:36:12,684 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:12,685 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\main\resources
+2019-02-24 22:36:12,690 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:12,690 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\test\resources
+2019-02-24 22:36:16,148 [Worker-3: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Project:goibibo_Alpha:0.0.1-SNAPSHOT @ C:\GitHub\CucumberTraining\goibibo_Alpha\pom.xml.
+2019-02-24 22:36:18,705 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:18,705 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\main\resources
+2019-02-24 22:36:18,708 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:18,708 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\test\resources
+2019-02-24 22:36:21,568 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:21,569 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\main\resources
+2019-02-24 22:36:21,572 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:36:21,572 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\test\resources
+2019-02-24 22:42:52,106 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:42:52,106 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\main\resources
+2019-02-24 22:42:52,108 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-02-24 22:42:52,108 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\GitHub\CucumberTraining\goibibo_Alpha\src\test\resources

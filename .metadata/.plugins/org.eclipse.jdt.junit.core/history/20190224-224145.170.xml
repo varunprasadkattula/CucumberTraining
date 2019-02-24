@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="New_configuration" project="goibibo_Alpha" tests="12" started="12" failures="0" errors="2" ignored="0">
+  <testsuite name="testrun.Testrunner" time="68.259">
+    <testsuite name="Feature: Navigate to GoIbibo Login page and Login as a Customer" time="68.259">
+      <testsuite name="Scenario: Navigate to GoIbibo" time="18.734">
+        <testcase name="Given Open Web Browser" classname="Scenario: Navigate to GoIbibo" time="5.525"/>
+        <testcase name="When Input GoIbibo Website URL and Enter" classname="Scenario: Navigate to GoIbibo" time="0.062"/>
+        <testcase name="Then Verify GoIbibo Website was opened" classname="Scenario: Navigate to GoIbibo" time="2.048"/>
+        <testcase name="When Click on Login" classname="Scenario: Navigate to GoIbibo" time="11.098"/>
+        <testcase name="Then Verify Login Screen is displayed" classname="Scenario: Navigate to GoIbibo" time="0.0"/>
+      </testsuite>
+      <testsuite name="Scenario: Login as a Customer" time="49.521" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)&#13;
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:221)&#13;
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:418)&#13;
+	at org.openqa.selenium.interactions.Actions.doubleClick(Actions.java:363)&#13;
+	at stepdef.Nav_login.verify_Signin_is_succesful(Nav_login.java:143)&#13;
+	at ✽.Then Verify Signin is succesful(C:/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:19)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on Login Screen" classname="Scenario: Login as a Customer" time="0.035"/>
+        <testcase name="Then Verify Username Field is available" classname="Scenario: Login as a Customer" time="0.031"/>
+        <testcase name="And Verify Password Field is available" classname="Scenario: Login as a Customer" time="0.085"/>
+        <testcase name="When User enters Username" classname="Scenario: Login as a Customer" time="1.123"/>
+        <testcase name="And User enters Password" classname="Scenario: Login as a Customer" time="5.093"/>
+        <testcase name="And User clicks on Signin" classname="Scenario: Login as a Customer" time="43.149"/>
+        <testcase name="Then Verify Signin is succesful" classname="Scenario: Login as a Customer" time="0.005">
+          <error>java.lang.NullPointerException&#13;
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787)&#13;
+	at org.openqa.selenium.interactions.PointerInput$Origin.fromElement(PointerInput.java:221)&#13;
+	at org.openqa.selenium.interactions.Actions.moveInTicks(Actions.java:418)&#13;
+	at org.openqa.selenium.interactions.Actions.doubleClick(Actions.java:363)&#13;
+	at stepdef.Nav_login.verify_Signin_is_succesful(Nav_login.java:143)&#13;
+	at ✽.Then Verify Signin is succesful(C:/GitHub/CucumberTraining/goibibo_Alpha/src/main/java/feature/Nav_login.feature:19)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
